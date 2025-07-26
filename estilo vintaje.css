@@ -1,0 +1,133 @@
+/* Estilo Vintage */
+
+/* General */
+body {
+    font-family: 'Georgia', serif;
+    background: #f4e7d3; /* Fondo cálido */
+    color: #5a4c42; /* Color de texto clásico */
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background: #8b5e3c; /* Marrón oscuro */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 5px solid #f4e7d3; /* Bordes decorativos */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f4e7d3;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border: 2px solid #f4e7d3;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background: #f4e7d3;
+    color: #5a4c42;
+}
+
+/* Contenido principal */
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fffaf0; /* Fondo suave */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border: 3px solid #8b5e3c;
+}
+
+/* Sección del menú */
+.menu h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #8b5e3c;
+    text-shadow: 2px 2px #f4e7d3;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.productos article {
+    background: #fdf6e4; /* Fondo claro */
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid #8b5e3c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+}
+
+.productos article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.productos img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #8b5e3c;
+    margin-bottom: 1rem;
+}
+
+.productos h3 {
+    font-size: 1.5rem;
+    color: #8b5e3c;
+    margin-bottom: 0.5rem;
+}
+
+.productos p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.productos button {
+    background: #8b5e3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.productos button:hover {
+    background: #5a4c42;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #8b5e3c;
+    color: #f4e7d3;
+    border-top: 5px solid #f4e7d3;
+    margin-top: 2rem;
